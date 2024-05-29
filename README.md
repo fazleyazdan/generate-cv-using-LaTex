@@ -8,7 +8,7 @@
 * Go to:  overleaf.com
 
 #### Step 2:
-* create files with the same name as it is i.e. 'main.tex' , 'utilities.tex' & 'particulars.tex'
+* create files with the same name as it is i.e. 'main.tex' , 'utilities.tex' & 'particulars.tex'.
 ![Overleaf](./screenshots/3.png)
 
 #### Step 3:

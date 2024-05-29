@@ -1,0 +1,200 @@
+\input{utilities}
+\usepackage{blindtext}  
+\usepackage{lipsum}
+
+\def\lrand{\lipsum[-]}
+\def\firstname{Fazle}
+\def\lastname{yazdan}
+\def\email{fazleyazdan345@gmail.com}
+\def\linkedin{https://linkedin.com/in/fazle-yazdan/}
+\def\github{https://github.com/fazleyazdan}
+\def\jasphone{+92347 9258983}
+
+% \def\jbegin{\begin{itemize}}
+% \def\jitem{\item }
+% \def\jend{\end{itemize}}
+\def\jbegin{\resumeItemListStart}
+\def\jitem{\resumeItem}
+\def\jend{\resumeItemListEnd}
+
+\def\profileSummary{
+\section{Career summary so far}
+
+I am a motivated Software Quality Assurance Engineer with two years of
+experience in manual and automation testing. I possess a deep understanding
+of testing tools and technologies. My expertise includes designing and
+executing comprehensive test plans, defect identification, and proficiency in
+automation testing. I'm dedicated to continuous improvement and staying
+updated on industry best practices, making me an asset to any team.
+
+}
+
+
+\def\achievements{
+    \jbegin
+        \jitem{\textbf{Skills:} Manual \& automation testing, API testing \& automation, Mobile \& Web Testing, IoT testing, problem Solving}
+        \jitem {\textbf{Tools:} Cypress, Selenium, Playwright, Appium, Pytest, JMeter, Postman, GitHub, Jira, Confluence}
+        \jitem {\textbf{Programming languages:} Python , Javascript, Java}
+        \jitem {\textbf{Languages:} English, Urdu, Arabic (elementary proficiency), Pashto}
+    \jend
+}
+
+% # Add education item here
+\EducationTemplate{College}
+{Sep 2017}{Dec 2021}{International Islamic university, Islamabad}
+{BS Software Engineering}
+{3.5 CGPA}
+
+
+\ExpTemplate{RBCCM}
+{Jun 2023}
+{Present}
+{SQA Engineer}
+{SeQuenX b.v.}
+{}
+{
+\jbegin
+    \jitem{Collaborated with developers and product managers to understand requirements and design comprehensive test plans.}
+    \jitem{Conducted manual testing to identify defects in the software and reported them using Jira.}
+    \jitem{Developed and executed automated test scripts using Selenium and Cypress to validate web application functionality.}
+    \jitem{Performed API testing with Postman, validating endpoints and ensuring data integrity.}
+    \jitem{Utilized JMeter for performance testing, identifying performance issues and working with the development team to optimize application performance.}
+\jend
+}
+
+
+\ExpTemplate{DivPF}
+{Sep 2022}
+{May 2023}
+{QA Engineer}
+{Assistech Solutions}
+{}
+{
+\jbegin
+    \jitem{Created detailed test documentation, including test cases, test plans, and test reports.}
+    \jitem{Conducted regression testing to verify the stability of new releases and updates.}
+    \jitem{Participated in daily stand-ups and sprint planning meetings as part of the Agile team, contributing to continuous integration and continuous deployment (CI/CD) processes.}
+    \jitem{Used Playwright for end-to-end testing of web applications, ensuring cross-browser compatibility.}
+    \jitem{Automated repetitive test cases using Selenium, enhancing test coverage and efficiency.}
+    \jitem{Ensured compliance with industry standards and best practices in testing procedures and documentation.}
+\jend
+}
+
+
+\ExpTemplate{Rivigo}
+{Apr 2022}
+{Jul 2022}
+{QA Internee}
+{NaxTech}
+{}
+{
+\jbegin
+    \jitem{Assisted in manual testing of web and mobile applications, identifying and documenting bugs and issues.}
+    \jitem{Collaborated with senior QA engineers to develop and execute test plans and test cases.}
+    \jitem{Participated in test execution and defect tracking activities, using QAlity to report and track issues.}
+    \jitem{Gained hands-on experience in different testing methodologies and tools, contributing to the overall quality improvement of the software products.}
+    \jitem{Conducted functional, regression, and smoke testing to ensure software stability before release.}
+    \jitem{Participated in daily stand-up meetings, providing updates on testing progress and discussing any blockers or issues.}
+    \jitem{Developed and maintained a repository of reusable test cases to streamline future testing efforts.}
+    \jitem{Engaged in exploratory testing to uncover hidden issues and edge cases not covered by regular test cases.}
+    \jitem{Shadowed senior QA engineers to learn best practices in test automation and continuous integration.}
+\jend
+}
+
+\ExpTemplate{Amex}
+{Nov 1005}
+{Present}
+{\lrand[1]}
+{\lrand[1]}
+{\lrand[1]}
+{
+\jbegin
+    \jitem{\lrand[2]}
+    \jitem{\lrand[1]}
+    \jitem{\lrand[7]}
+\jend
+}
+
+
+\HckTemplate{HackCIMDGS}
+{2019}
+{\lrand[1]}
+{\lrand[3]}
+{\jbegin
+    \jitem{\lrand[27]}
+    \jitem{ \lrand[28]}
+\jend}
+
+
+\HckTemplate{HackWInfy}
+{2019}
+{\lrand[1]}
+{\lrand[3]}
+{\jbegin
+    \jitem{\lrand[27]}
+    \jitem{ \lrand[28]}
+    \jitem{ \lrand[30]}
+\jend}
+
+\HckTemplate{i3wm}
+{}
+{Automation with Selenium Using Python}
+{\href{https://github.com/fazleyazdan/SeleniumPythonAutomation}{Github link}}
+{\jbegin
+    \item{\textbf{Topics Covered:} {}}
+    \item {Locators: CSS \& XPATH axes}
+    \item {Waits: Implicit \& explicit.}
+    \item {Browser \& Navigational Commands}
+    \item {Screenshots}
+    \item {Mouse \& Keyboard Actions}
+    \item {Handling Dropdowns, Popups \& Alerts}
+    \item {IFrames \& Nested IFrames}
+    \item {Browser Windows & Tabs}
+    \item {Date Picker & Tables}
+    \item {Data-Driven Testing}
+    \item {Database Operations using MySQL}
+\jend}
+
+\HckTemplate{TrdSigGen}
+{}
+{Automation with Cypress Using Javascript}
+{\href{https://github.com/fazleyazdan/cypress-automation}{Github link}}
+{\jbegin
+    \item{\textbf{Topics Covered:} {}}
+    \item {All Kinds of Locators}
+    \item {Test Suit, Hooks, Tags}
+    \item {Implicit \& explicit Assertions}
+    \item {Fixture Usage, Data-Driven Testing}
+    \item {Screenshots \& Video on Test Failure}
+    \item {Custom Commands: Extending Cypress functionality for tailored testing needs}
+    \item {Page Object Model}
+    \item {HTML Report Generation}    
+\jend}
+
+\HckTemplate{TrdSigGens}
+{}
+{My Other GitHub projects which I have Worked on}
+{Click individul projects to visit the codebase}
+{\jbegin
+    \item {\href{https://github.com/fazleyazdan/cypress-api-testing}{API testing Using Cypress}}
+    \item {\href{https://github.com/fazleyazdan/Jmeter-Guide}{Guide to JMeter}}
+    \item {\href{https://github.com/fazleyazdan/Google-calculator-automation}{Google Calculator Automation}}
+    \item {\href{https://github.com/fazleyazdan/beginners-python}{Python for beginners}}
+    \item {\href{https://github.com/fazleyazdan/pytest-practice}{Pytest Practice}}
+\jend}
+
+
+% \DefineArrayVar{Education}{@}
+% {,}{School, Course, Stream, Start, End}
+% {,}{C,D}
+
+
+% % # Add experience item here
+
+
+
+
+% \renewcommand{addEducation}{}
+
+
+% # Add projects here

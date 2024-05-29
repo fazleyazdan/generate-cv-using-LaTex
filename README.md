@@ -13,6 +13,6 @@
 
 #### Step 3:
 * Modify resume : add information of your choice 
-* if you wanna change the profile info: open 'particulars.tex" file & make changes.
+* if you wanna tailor according to your needs: open 'particulars.tex" file & make changes.
 ![Overleaf](./screenshots/2.png)
 

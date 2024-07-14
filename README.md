@@ -15,6 +15,5 @@
 * Modify resume : add information of your choice 
 * if you wanna tailor according to your needs: open 'particulars.tex" file & make changes.
 ![Overleaf](./screenshots/2.png)
-  
- 
+
  

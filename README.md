@@ -3,7 +3,12 @@
 #### Resume Template:
 
 ![Overleaf](./screenshots/1.png)
+
+##
+
 ![Overleaf](./screenshots/4.png)
+
+##
 
 #### Step 1: 
 * Go to:  overleaf.com
